@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Web Nicolas Siciliano">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="author" content="Nicolas Siciliano">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Bootstrap! -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>NHWeb | Front-End Developer</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" width="60" alt="">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mis-proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#favoritos">Favoritos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img src="img/profileph.png" class="profileimg" alt="Foto personal">
+            <h1>Hola, Soy Nicolás Siciliano</h1>
+            <h2>Soy desarrollador Front-End utilizando varias tecnologias y <br> divulgo información relacionada con la tecnología Blockchain.</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="img/hero-inferior.svg" width="600" alt="hero imagen">
+        </div>
+    </section>
+
+    <!--Sobre mi-->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce más sobre mi</h2>
+            <p class="seccion-texto">Actualmente estoy trabajando en proyectos utilizando el stack MERN tanto con React como con React Native.<br>
+            Mis principales habilidades son con las tecnologias de ReactJS, NextJS, Node, MongoDB/SQL como asi también con HTML, CSS y JavaScript.<br>
+        Estoy muy interesado en la programación Web3 y en la tecnología Blockchain por lo que me mantengo actualizado constantemente en estos temas.</p>
+        </div>
+    </section>
+
+    <!--Experiencia-->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollo Web</p>
+                    <p>React y Next son los principales Frameworks que utilizo para desarrollar el marco del Front, pero también me siento muy cómodo 
+                        trabajando con HTML, CSS y JavaScript. Para estructurar el Back-End utilizo Node y Express, tecnologías que estoy usando mucho para terminar
+                        de definir mi camino hacia FullStack.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">React</span>
+                    </div>
+                </div>
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Articulos</p>
+                    <p>Creo que la tecnología Blockchain es el futuro que ya está entre nosotros, sin embargo aún hay muy poca información que se
+                        divulgue de forma eficiente para aprender diariamente sobre este tema. Por eso comparto constantemente artículos interesantes sobre esta tecnología.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Blockchain</span>
+                        <span class="badge text-bg-primary">Web3</span>
+                        <span class="badge text-bg-primary">DAO</span>
+                    </div>
+                </div>
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <p>Mi principal fuente de estudio es la plataforma Codecademy en donde obtuve mi certificación (Front-End Engineer) pero también
+                        utilizo otras como FreeCodeCamp y YouTube además de las plataformas de Google y Microsoft para desarrollo.
+                    </p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Codecademy</span>
+                        <span class="badge text-bg-primary">FreeCodeCamp</span>
+                        <span class="badge text-bg-primary">Alkemy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Proyectos-->
+    <section id="mis-proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+        <h3 class="seccion-descripcion">Estos son algunos de mis proyectos recientes...</h3>
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto1.png" alt="Proyecto 1">
+                        <div class="overley">
+                            <p>Alkemy Cinema App</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/nhsiciliano/alkemy-cinema-app" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://alkemy-cinema-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto2.png" alt="Proyecto 2">
+                        <div class="overley">
+                            <p>Adhoc Boostrap</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/nhsiciliano/adhoc-bootstrap" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://adhocompany.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto3.png" alt="Proyecto 3">
+                        <div class="overley">
+                            <p>Crater Block Tech</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/nhsiciliano/craterblocktech" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://craterblocktech.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto4.png" alt="Proyecto 4">
+                        <div class="overley">
+                            <p>Movie Fan Site</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/nhsiciliano/movie-fan-site" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://movie-fan-site.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto5.png" alt="Proyecto 5">
+                        <div class="overley">
+                            <p>Don't buy just adopt</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/nhsiciliano/dontbuyjustadopt" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://dontbuyjustadopt.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto6.png" alt="Proyecto 6">
+                        <div class="overley">
+                            <p>NHS React Portfolio</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/nhsiciliano/nhswebportfolio" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://nhsweb.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/nhsiciliano" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver más proyectos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+
+    <!--Articulos-->
+    <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo">Articulos</h2>
+        <div class="card">
+            <div class="card-header text-center">
+                Tecnología Blockchain
+            </div>
+                <ul class="list-group list-group-flush text-center">
+                    <a href="https://es.cointelegraph.com/news/metaverse-experience-to-sway-real-world-travel-choices-in-2023-survey" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">El metaverso ya es parte del futuro</li>                        
+                    </a>
+                    <a href="https://es.cointelegraph.com/news/new-york-state-issues-guidance-for-banks-seeking-to-engage-in-activities-with-crypto" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Los bancos no se quieren quedar afuera de la Blockchain</li>                        
+                    </a>
+                    <a href="https://es.cointelegraph.com/news/how-blockchain-technology-is-used-to-save-the-environment" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">La tecnología Blockchain para salvar el medio ambiente</li>                        
+                    </a>
+                    <a href="https://www.criptonoticias.com/criptopedia/quien-satoshi-nakamoto-creador-bitcoin/" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Quien es Satoshi Nakamoto, creador de Bitcoin</li>                        
+                    </a>
+                    <a href="https://www.criptonoticias.com/mercados/perdidas-2022-ahorristas-bitcoin-alcanzan-maximo-btc-acumulados/" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">Los ahorristas Bitcoin alcanzan maximo de BTC acumulados</li>                        
+                    </a>
+                </ul>
+        </div>
+        <a href="https://learn.microsoft.com/en-us/training/paths/ethereum-blockchain-development/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Aprende blockchain
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+
+    <!--Favoritos-->
+    <section id="favoritos" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo text-center">Mis proyectos favoritos</h2>
+        <h3 class="seccion-descripcion text-center">Estos son mis proyectos blockchain favoritos los cuales sigo de cerca <br> diariamente y creo que tienen el futuro asegurado</h3>
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/btcimg.png" class="testimonio-imagen" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>BITCOIN</h3>
+                        <p>Llamado el oro digital, ha llegado para darle un nuevo futuro al intercambio de valor definido por sus atributos:
+                            Escaso, descentralizado y seguro.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ethimg.png" class="testimonio-imagen" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>ETHEREUM</h3>
+                        <p>Trajo los contratos inteligentes a la blockchain y es la principal red sobre la que se 
+                            construyen aplicaciones descentralizadas (dApps) brindando multiples funcionalidades.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/linkimg.png" class="testimonio-imagen" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>CHAINLINK</h3>
+                        <p>De infraestructura flexible y altamente segura esta blockchain es el oraculo que conecta
+                            los contratos inteligentes con la informacion y los servicios del mundo exterior. Eric Schmidt (ex CEO de Googles)
+                            se sumo al proyecto en el utlimo tiempo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/polygonimg.png" class="testimonio-imagen" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Polygon</h3>
+                        <p>La blockchain que trae la solucion de escalabilidad a los desarrolladores para crear dApps mas amigables
+                            y con muy bajos costos de red sin sacrificar la seguridad. Ha firmado asociaciones con las principales empresas
+                        de tecnologia y entretenimiento en los ultimos meses como Meta, Warner Music y Disney.</p>
+                    </div>
+                </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container rectangulo text-center d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contactame para iniciar tu proyecto de desarrollo y llevar tu vision al proximo nivel.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:nhsiciliano@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="img/logo2.png" alt="logo">
+        <p class="footer-texto text-center">Aprendiendo y creando todos los dias. <br> Creemos un proyecto juntos.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://github.com/nhsiciliano" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.instagram.com/nicohsiciliano/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nicolashsiciliano/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por NH Web &#169;</div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="bi bi-arrow-up-circle arrow-page"></i>
+    </button>
+    
+    
+    <script src="/scrollButton.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
